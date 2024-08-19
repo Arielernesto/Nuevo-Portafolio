@@ -5,9 +5,9 @@ import Link from 'next/link'
 
 export function Introduction(){
     return (
-        <section className=" z-20 w-full bg-darkbg/60">
+        <section className=" z-20 w-full overflow-hidden ">
             <div className='z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 '>
-                <Image src="/home-4.png" priority width="800" height="800" alt="Profile pic"  />
+                <Image className='mt-0 md:mt-5' src="/home-4.png" priority width="800" height="800" alt="Profile pic"  />
 
                 <div className="flex flex-col justify-center max-w-full lg:max-w-md md-max-w-md  sm:max-w-full">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl sm-text-2xl md:mb-10 text-nowrap">Si puedes pensarlo, <br /> <TypeAnimation sequence={[

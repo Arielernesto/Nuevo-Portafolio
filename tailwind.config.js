@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "2lg": "1023px",
+        "3lg": "1170px"
+      },
       colors:{
         secondary: '#f5741c',
         darkbg: '#131424'

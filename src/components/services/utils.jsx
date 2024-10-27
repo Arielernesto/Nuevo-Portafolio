@@ -4,7 +4,7 @@ import { LucideYoutube } from "lucide-react";
 import { Computer } from "lucide-react";
 import { Rocket } from "lucide-react";
 import { Pencil } from "lucide-react";
-import { Speech } from "lucide-react";
+import { Speech, Brackets } from "lucide-react";
 
 import { Home } from "lucide-react";
 import { Book } from "lucide-react";
@@ -145,9 +145,9 @@ export const serviceData = [
         description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
     },
     {
-        icon: <Rocket></Rocket>,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <Brackets></Brackets>,
+        title: "Backend",
+        description: "Desarrollo de APIs y backends completos",
     },
 ];
 
@@ -155,49 +155,10 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Tic-Tac-Toe",
-        image: "/Tic-Tac-Toe.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        tecnologies: [
-            {
-                name: "React",
-                color: "text-blue-600 border-blue-600"
-            },
-            {
-                name: "JavaScript",
-                color: "text-yellow-400 border-yellow-400"
-            }
-        ]
-    },
-   
-    {
-        id: 4,
-        title: "JavaScript-Quiz",
-        image: "/quiz.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        tecnologies: [
-            {
-                name: "React",
-                color: "text-blue-600 border-blue-600"
-            },
-            {
-                name: "JavaScript",
-                color: "text-yellow-400 border-yellow-400"
-            },
-            {
-                name: "Zustand",
-                color: "text-gray-900 border-gray-900"
-            }     
-        ]
-    },
-    {
-        id: 5,
         title: "Dashboard-Company",
         image: "/dashboard.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Arielernesto/Dashboard-Company",
+        urlDemo: "https://dashboard-company-ivory.vercel.app/",
         tecnologies: [
             {
                 name: "React",
@@ -212,11 +173,87 @@ export const dataPortfolio = [
                 color: " text-neutral-600 border-neutral-600"
             },
             {
-                name: "ShadCN",
-                color: " text-slate-800  border-slate-800"
+                name: "TypeScript",
+                color: "text-blue-600 border-blue-600"
             }        
-        ]
+        ],
+        description: "Este Dashboard de compañías, desarrollado en Next.js, esta diseñado para ofrecer una experiencia fluida y eficiente en la gestión empresarial. Utiliza Prisma como ORM, lo que permite manejar las bases de datos de manera segura y eficiente, garantizando integridad y rendimiento óptimos. La interfaz de usuario está creada con los componentes de Shadcn, asegurando un diseño moderno y una excelente usabilidad"
     },
+
+    {
+        id: 2,
+        title: "Creador de rankings",
+        image: "/TierMaker.png",
+        urlGithub: "https://github.com/Arielernesto/Tier-List-frontend",
+        urlDemo: "https://tier-list-frontend.vercel.app/",
+        tecnologies: [
+            {
+                name: "React",
+                color: "text-blue-600 border-blue-600"
+            },
+            {
+                name: "JavaScript",
+                color: "text-yellow-400 border-yellow-400"
+            },
+            {
+                name: "NodeJs",
+                color: " text-green-800  border-green-800"
+            }
+        ],
+        description: "Esta aplicación web Tier Maker permite a los usuarios crear y organizar listas de clasificación de manera intuitiva y visualmente atractiva. El backend, construido con Node.js y el framework Express, garantiza un rendimiento sólido y una gestión eficiente de los datos. El frontend, desarrollado con React y Tailwind CSS, ofrece una interfaz moderna diseñada específicamente para uso en escritorio. Actualmente, la aplicación no es responsive y no se puede usar en dispositivos móviles debido a problemas con la funcionalidad de arrastrar y soltar (drag and drop)"
+    },
+    
+    {
+        id: 3,
+        title: "Acortador de URLs",
+        image: "/ShortLink.png",
+        urlGithub: "https://github.com/Arielernesto/short-url",
+        urlDemo: "https://short-url-azure.vercel.app/",
+        tecnologies: [
+            {
+                name: "React",
+                color: "text-blue-600 border-blue-600"
+            },
+            {
+                name: "JavaScript",
+                color: "text-yellow-400 border-yellow-400"
+            },
+            {
+                name: "NodeJs",
+                color: " text-green-800  border-green-800"
+            },
+            {
+                name: "Prisma",
+                color: "text-teal-500 border-teal-500"
+            },
+        ],
+        description: "Esta página acortadora de URL, desarrollada en Node.js, ofrece una solución eficaz y rápida para la gestión de enlaces. Utilizé Node.js para servir la página como archivos estáticos, garantizando una carga rápida y eficiente, mientras que las demás rutas se manejan como rutas de API para una funcionalidad robusta. La interfaz de usuario está creada con React y Tailwind CSS, asegurando un diseño moderno, atractivo y altamente personalizable" 
+    },
+    
+    {
+        id: 9,
+        title: "JavaScript-Quiz",
+        image: "/quiz.png",
+        urlGithub: "https://github.com/Arielernesto/JavaScript-Quiz",
+        urlDemo: "https://java-script-quiz-eight.vercel.app/",
+        tecnologies: [
+            {
+                name: "React",
+                color: "text-blue-600 border-blue-600"
+            },
+            {
+                name: "JavaScript",
+                color: "text-yellow-400 border-yellow-400"
+            },
+            {
+                name: "Zustand",
+                color: "text-gray-900 border-gray-900"
+            }     
+        ],
+        description: "Esta aplicación web de JavaScript Quiz, desarrollada con React, está diseñada para ayudar a los usuarios a poner a prueba y mejorar sus conocimientos en JavaScript de manera interactiva y divertida. Con una interfaz moderna y atractiva, los usuarios pueden navegar a través de una variedad de preguntas, recibir retroalimentación instantánea y ver sus resultados al finalizar cada quiz. La aplicación está optimizada un rendimiento rápido y una experiencia de usuario fluida"
+    },
+   
+   
 
     // {
     //     id: 2,
@@ -271,37 +308,11 @@ export const dataPortfolio = [
 
 export const dataProjects = [
     {
-        id: 3,
-        title: "Blog + Dashboard",
-        image: "/CodeZen.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        tecnologies: [
-            {
-                name: "PHP",
-                color: "text-purple-600 border-purple-600"
-            },
-            {
-                name: "Bootstrap",
-                color: "text-purple-600 border-purple-600"
-            },
-            {
-                name: "Laravel",
-                color: "text-secondary border-secondary"
-            },
-            {
-                name: "Livewire",
-                color: "text-pink-600 border-pink-600"
-            },
-           
-        ]
-    },
-    {
-        id: 2,
+        id: 20,
         title: "Landing de Construcción",
         image: "/brickhub.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Arielernesto/BrickHub",
+        urlDemo: "https://brick-hub.vercel.app/",
         tecnologies: [
             {
                 name: "React",
@@ -315,7 +326,8 @@ export const dataProjects = [
                 name: "Bootstrap",
                 color: "text-purple-600 border-purple-600"
             }
-        ]
+        ],
+        description: "Esta landing de construcción, desarrollada con React, JavaScript y Bootstrap 5, ofrece una experiencia completamente responsiva y moderna. Diseñada específicamente para el sector de la construcción, la página proporciona una navegación intuitiva y un diseño atractivo que se adapta a cualquier dispositivo, asegurando una experiencia óptima tanto en escritorio como en móviles "
     },
     
 ]
@@ -325,20 +337,20 @@ export const dataTestimonials = [
         name: "Juan Pérez",
         description:
             "Trabajar con ExoCode ha sido una experiencia increible. Su conocimiento en Next.js y React nos permitió lanzar nuestra plataforma en tiempo récord",
-        imageUrl: "/profile1.png",
+        imageUrl: "/profile1.webp",
     },
     {
         id: 2,
         name: "María Gómez",
         description:
             "Gracias a ExocCode, pudimos integrar una arquitectura serveless eficiente utilizando Laravel y React",
-        imageUrl: "/profile2.png",
+        imageUrl: "/profile2.webp",
     },
     {
         id: 3,
         name: "Carlos Rodríguez",
         description:
             "Recomiendo encarecidamente a ExoCode para cualquier proyecto de desarrollo web",
-        imageUrl: "/profile3.png",
+        imageUrl: "/profile3.webp",
     },
 ];

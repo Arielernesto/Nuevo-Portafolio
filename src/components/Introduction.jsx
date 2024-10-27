@@ -36,7 +36,7 @@ export function Introduction(){
                             Ver proyectos
                         </Link>
 
-                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer md:text-md text-sm text-nowrap w-fit rounded-xl hover:shadow-xl text-secondary border-secondary  hover:shadow-secondary">
+                        <Link href="https://wa.link/h3aqzm" target="_blank" className="px-3 py-2 transition-all border-2 cursor-pointer md:text-md text-sm text-nowrap w-fit rounded-xl hover:shadow-xl text-secondary border-secondary  hover:shadow-secondary">
                             Contacta conmigo
                         </Link>
                     </div>
